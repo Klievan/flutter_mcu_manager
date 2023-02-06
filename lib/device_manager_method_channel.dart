@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:device_manager/device_manager.dart';
+import 'package:flutter_mcu_manager/device_manager.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 

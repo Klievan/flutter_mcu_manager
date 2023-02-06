@@ -1,7 +1,7 @@
-name: device_manager
+name: flutter_mcu_manager
 description: Implementation of Nordic's Device Manager packages in Flutter which allows for DFU and many more.
 version: 0.0.1
-homepage: https://github.com/Klievan/device_manager
+homepage: https://github.com/Klievan/flutter_mcu_manager
 
 environment:
   sdk: '>=2.18.4 <3.0.0'
@@ -16,6 +16,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+  change_app_package_name: ^1.1.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
