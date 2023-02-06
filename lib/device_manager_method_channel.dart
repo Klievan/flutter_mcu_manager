@@ -1,10 +1,10 @@
 import 'dart:async';
 
-import 'package:flutter_mcu_manager/device_manager.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
 import 'device_manager_platform_interface.dart';
+import 'device_manager.dart';
 
 /// An implementation of [DeviceManagerPlatform] that uses method channels.
 class MethodChannelDeviceManager extends DeviceManagerPlatform {
