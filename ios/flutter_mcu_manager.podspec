@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
   s.version          = '0.0.1'
   s.summary          = 'Implementation of Nordic\'s Device Manager packages in Flutter which allows for DFU and many more..'
   s.description      = <<-DESC
-A new Flutter plugin project.
+  mplementation of Nordic\'s Device Manager packages in Flutter which allows for DFU and many more..'
                        DESC
-  s.homepage         = 'https://example.com'
+  s.homepage         = 'https://github.com/Klievan/flutter_mcu_manager'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'IoSA Tracking' => 'ivan@iosatracking.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

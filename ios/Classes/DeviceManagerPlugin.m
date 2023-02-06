@@ -1,6 +1,6 @@
 #import "DeviceManagerPlugin.h"
-#if __has_include(<device_manager/device_manager-Swift.h>)
-#import <device_manager/device_manager-Swift.h>
+#if __has_include(<flutter_mcu_manager/device_manager-Swift.h>)
+#import <flutter_mcu_manager/device_manager-Swift.h>
 #else
 // Support project import fallback if the generated compatibility header
 // is not copied when this plugin is created as a library.
@@ -9,7 +9,7 @@
 #endif
 
 @implementation DeviceManagerPlugin
-+ (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
++ (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar> *)registrar {
   [SwiftDeviceManagerPlugin registerWithRegistrar:registrar];
 }
 @end
